@@ -1,23 +1,25 @@
 import React, { useState, useContext, createContext } from 'react'
+import Button from './Button'
 
 const ThemeContext = createContext({ })
 
 export function ThemeUseProvider({ children }) {
     const [ theme, setTheme ] = useState('dark')
     const toggleTheme = () => {
-        setTheme(theme === 'dark' ? 'dark' : 'light')
+        setTheme(theme === 'dark' ? 'light' : 'dark')
     }
 
     return (
-        <ThemeContext.Provider value={{ theme: theme, toggleTheme }}>{children}</ThemeContext.Provider>
+        <ThemeContext.Provider value={{ theme: theme, toggleTheme }}>
+            {children}
+        </ThemeContext.Provider>
     )
 }
 
-export function ThemeCounter() {
+export function ToggleTheme() {
     const context = useTheme()
-    console.log(context)
     return (
-        <div>asdasd</div>
+        <Button onClick={() => context.toggleTheme()}>{context.theme}</Button>
     )
 }
 

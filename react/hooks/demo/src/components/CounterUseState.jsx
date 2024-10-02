@@ -1,11 +1,12 @@
 import React, { useState } from 'react'
+import Button from './Button'
 
 function CounterUseState() {
     const [count, setCount] = useState(0)
     return (
-        <button onClick={() => setCount(count + 1)}>
+        <Button onClick={() => setCount(count + 1)}>
             Click me {count}
-        </button>
+        </Button>
     )
 }
 
