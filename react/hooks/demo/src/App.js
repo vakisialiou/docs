@@ -12,6 +12,7 @@ import ListUseTransition from './components/ListUseTransition'
 import ListUseDeferredValue from './components/ListUseDeferredValue'
 import FormUseId from './components/FormUseId'
 import ResizableUseSyncExternalStore from './components/ResizableUseSyncExternalStore'
+import BlockUseInsertionEffect from './components/BlockUseInsertionEffect'
 
 function App() {
   return (
@@ -86,6 +87,11 @@ function App() {
           <div className="flex items-center gap-4">
               <div className="w-40 font-bold">useSyncExternalStore</div>
               <ResizableUseSyncExternalStore/>
+          </div>
+
+          <div className="flex items-center gap-4">
+              <div className="w-40 font-bold">useInsertionEffect</div>
+              <BlockUseInsertionEffect/>
           </div>
       </div>
   );
