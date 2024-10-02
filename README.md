@@ -32,6 +32,7 @@
 <summary>React.js</summary>
 
 1. [ ] [Основы React](react/fundamental.md)
+2. [x] [Hooks](react/hooks/hooks.md)
 
 </details>
 
