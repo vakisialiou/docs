@@ -1,5 +1,5 @@
 import React, {useImperativeHandle, forwardRef, useRef, useState} from 'react'
-import Button from './Button'
+import Button from '@components/Button'
 
 const ChildUseImperativeHandle = forwardRef((prop, ref) => {
     const [value, setValue] = useState(prop.value || '')

@@ -1,10 +1,12 @@
 import React, { useState, useMemo } from 'react'
-import Button from './Button'
+import Button from '@components/Button'
 
 const expensiveCalculation = (num) => {
-    console.log('Calculating...');
+    if (num > 0) {
+        console.log('Calculating...')
+    }
     for (let i = 0; i < 1000000000; i++) {} // Имитация долгой работы
-    return num * 2;
+    return num * 2
 }
 
 function ExpensiveCalculationUseMemo() {

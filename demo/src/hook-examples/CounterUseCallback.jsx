@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from 'react'
-import Button from './Button'
+import Button from '@components/Button'
 
 let rememberCallback = null
 function CounterUseCallback() {

@@ -1,5 +1,5 @@
 import React, { useState, useTransition, useCallback } from 'react'
-import Input from './Input'
+import Input from '@components/Input'
 
 const items = Array.from({ length: 100000 }, (_, i) => `Item ${i + 1}`);
 

@@ -1,6 +1,6 @@
 import React, { useReducer } from 'react'
-import Button from './Button'
-import Input from './Input'
+import Button from '@components/Button'
+import Input from '@components/Input'
 
 function FormUseReducer() {
     const initialState = {

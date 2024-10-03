@@ -1,5 +1,5 @@
 import React, { useState, useCallback, useDeferredValue, useMemo } from 'react'
-import Input from './Input'
+import Input from '@components/Input'
 
 function ListUseTransition() {
     const [searchQuery, setSearchQuery] = useState('')

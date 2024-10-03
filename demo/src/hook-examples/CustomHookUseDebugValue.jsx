@@ -1,5 +1,5 @@
 import React, { useState, useDebugValue } from 'react'
-import Button from './Button'
+import Button from '@components/Button'
 
 function useCustomHook(v) {
     const [value, setValue] = useState(v)

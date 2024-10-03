@@ -31,8 +31,11 @@
 <details>
 <summary>React.js</summary>
 
-1. [ ] [Основы React](react/fundamental.md)
+1. [x] [Основы React](react/fundamental.md)
 2. [x] [Hooks](react/hooks/hooks.md)
+3. [x] [JSX и рендеринг](react/jsx.md)
+4. [x] [Оптимизация рендеринга](react/optimization.md)
+5. [x] [State и Props](react/state.md)
 
 </details>
 

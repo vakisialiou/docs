@@ -1,5 +1,5 @@
 import React, { useState, useContext, createContext } from 'react'
-import Button from './Button'
+import Button from '@components/Button'
 
 const ThemeContext = createContext({ })
 

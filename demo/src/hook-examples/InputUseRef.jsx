@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import Button from './Button'
+import Button from '@components/Button'
 
 function InputUseRef() {
     const inputRef = useRef(null)
