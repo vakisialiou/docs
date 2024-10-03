@@ -1,6 +1,6 @@
 
-<details>
-<summary>Node.js</summary>
+
+### Node.js
 
 1. [x] [Процесс и поток](node/process.md)
 2. [x] [Файловый дескриптор](node/file-descriptor.md)
@@ -10,10 +10,8 @@
 6. [x] [Модули и пакеты](node/modules-packages.md)
 7. [x] [Файловая система и потоки](node/file-system-streams.md)
 
-</details>
 
-<details>
-<summary>Express.js</summary>
+### Express.js
 
 1. [x] [Основные преимущества?](express/advantages.md)
 2. [x] [Поговорим про базовые модули?](express/modules.md)
@@ -26,10 +24,7 @@
 9. [x] [Как реализовать аутентификацию и авторизацию](express/auth.md) 
 10. [x] [Как организовать тестирование приложения?](express/tests.md)
 
-</details>
-
-<details>
-<summary>React.js</summary>
+### React.js
 
 1. [x] [Основы React](react/fundamental.md)
 2. [x] [Hooks](react/hooks/hooks.md)
@@ -38,22 +33,14 @@
 5. [x] [State и Props](react/state.md)
 6. [x] [Жизненный цикл](react/life-cycle.md)
 
-</details>
-
-<details>
-<summary>Next.js</summary>
+### Next.js
 
 1. [ ] [Theme 1](docker/test.md)
 2. [ ] [Theme 2](docker/test.md)
 3. [ ] [Theme 3](docker/test.md)
 
-</details>
-
-<details>
-<summary>Docker</summary>
+### Docker
 
 1. [ ] [Theme 1](docker/test.md)
 2. [ ] [Theme 2](docker/test.md)
 3. [ ] [Theme 3](docker/test.md)
-
-</details>
