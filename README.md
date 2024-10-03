@@ -36,6 +36,7 @@
 3. [x] [JSX и рендеринг](react/jsx.md)
 4. [x] [Оптимизация рендеринга](react/optimization.md)
 5. [x] [State и Props](react/state.md)
+6. [x] [Жизненный цикл](react/life-cycle.md)
 
 </details>
 
