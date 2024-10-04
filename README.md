@@ -1,5 +1,3 @@
-
-
 ### Node.js
 
 1. [x] [Процесс и поток](node/process.md)
@@ -9,7 +7,6 @@
 5. [x] [Цикл событий](node/event-loop.md)
 6. [x] [Модули и пакеты](node/modules-packages.md)
 7. [x] [Файловая система и потоки](node/file-system-streams.md)
-
 
 ### Express.js
 
@@ -26,12 +23,16 @@
 
 ### React.js
 
-1. [x] [Основы React](react/fundamental.md)
-2. [x] [Hooks](react/hooks/hooks.md)
-3. [x] [JSX и рендеринг](react/jsx.md)
-4. [x] [Оптимизация рендеринга](react/optimization.md)
-5. [x] [State и Props](react/state.md)
-6. [ ] [Жизненный цикл](react/life-cycle.md)
+1. [x] [Вопросы](react/questions.md)
+2. [x] [Основы React](react/fundamental.md)
+3. [x] [Hooks](react/hooks/hooks.md)
+4. [x] [JSX и рендеринг](react/jsx.md)
+5. [x] [Оптимизация рендеринга](react/optimization.md)
+6. [x] [State и Props](react/state.md)
+7. [x] [Жизненный цикл](react/life-cycle.md)
+8. [x] [Контекст](react/life-cycle.md)
+9. [x] [Управление состоянием](react/state-management.md)
+10. [x] [Управления маршрутами](react/router.md)
 
 ### Next.js
 
