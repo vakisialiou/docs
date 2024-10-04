@@ -33,6 +33,7 @@
 8. [x] [Контекст](react/life-cycle.md)
 9. [x] [Управление состоянием](react/state-management.md)
 10. [x] [Управления маршрутами](react/router.md)
+11. [x] [Тестирование](react/tests.md)
 
 ### Next.js
 
