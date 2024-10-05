@@ -34,6 +34,10 @@
 9. [x] [Управление состоянием](react/state-management.md)
 10. [x] [Управления маршрутами](react/router.md)
 11. [x] [Тестирование](react/tests.md)
+12. [x] [Форма и обработка событий](react/form-events.md)
+13. [x] [React Server-Side Rendering (SSR) и Static Site Generation (SSG)](react/ssr-ssg.md)
+14. [x] [Фрагменты и ключи](react/fragmens-keys.md)
+15. [x] [Асинхронность в React](react/async.md)
 
 ### Next.js
 
