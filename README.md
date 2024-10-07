@@ -41,12 +41,12 @@
 
 ### Next.js
 
-1. [ ] [Theme 1](docker/test.md)
-2. [ ] [Theme 2](docker/test.md)
-3. [ ] [Theme 3](docker/test.md)
+1. [ ] [Вопросы](next/questions.md)
 
 ### Docker
 
-1. [ ] [Theme 1](docker/test.md)
-2. [ ] [Theme 2](docker/test.md)
-3. [ ] [Theme 3](docker/test.md)
+1. [ ] [Вопросы](docker/questions.md)
+
+### CI/CD
+
+1. [ ] [Вопросы](ci/questions.md)
