@@ -37,8 +37,16 @@
 - [x] Parallel
   - [Директория](./../demo-next/app/routes/parallel)
   - [Демо](http://localhost:3000/routes/parallel)
+
+- [x] Intercept
+  - [Директория](./../demo-next/app/routes/intercept)
+  - [Демо](http://localhost:3000/routes/intercept)
+
+- [x] Route
+  - [Директория](./../demo-next/app/api)
+  - [Демо 1](http://localhost:3000/api/v1/1)
+  - [Демо 2](http://localhost:3000/api/v2?id=1)
+  - [Демо 3](http://localhost:3000/api/v3)
+  - [Демо 3](http://localhost:3000/api)
    
-### Render Components
-   1. [ ] Create SSR (Server Side Component)
-   2. [ ] Create SSG (Static Site Generation)
-   3. [ ] Create Client Component
+
