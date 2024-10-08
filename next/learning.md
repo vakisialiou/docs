@@ -16,8 +16,7 @@
 
 - [x] Создать динамический маршрут ``shop``
   - [Директория](./../demo-next/app/routes/shop)
-  - [Демо](http://localhost:3000/routes/shop/)
-  - [Демо](http://localhost:3000/routes/shop/1)
+  - [Демо](http://localhost:3000/routes/shop)
   
 - [x] Создать вложенный маршрут ``routes/settings`` с собственным ``layout``
   - [Директория](./../demo-next/app/routes/settings)
@@ -28,11 +27,14 @@
   - [Демо](http://localhost:3000/routes/analytics/)
 
 - [x] Обработка ошибок
-  - [Директория root](./../demo-next/app)
-  - [Демо](http://localhost:3000/routes/fail)
-  - [Демо](http://localhost:3000/routes/fail/no-exists)
+  - [Директория](./../demo-next/app/routes/fail)
+  - [Демо error](http://localhost:3000/routes/fail)
+
+- [x] Loading
+  - [Директория](./../demo-next/app/routes/product)
+  - [Демо](http://localhost:3000/routes/product)
    
-2. Render Components
+### Render Components
    1. [ ] Create SSR (Server Side Component)
    2. [ ] Create SSG (Static Site Generation)
    3. [ ] Create Client Component

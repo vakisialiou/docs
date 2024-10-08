@@ -1,9 +1,9 @@
 "use client"
 
-export default function ErrorPage({ error, reset }: { error: Error, reset: () => void }) {
+export default function Error({ error, reset }: { error: Error, reset: () => void }) {
   return (
     <div className="flex flex-col justify-center items-center w-full">
-      <div>Root Error Page</div>
+      <div>Local Error Page</div>
       <h2>Something went wrong!</h2>
       <div>{error.message}</div>
 
