@@ -31,8 +31,12 @@
   - [Демо error](http://localhost:3000/routes/fail)
 
 - [x] Loading
-  - [Директория](./../demo-next/app/routes/product)
-  - [Демо](http://localhost:3000/routes/product)
+  - [Директория](./../demo-next/app/routes/load)
+  - [Демо](http://localhost:3000/routes/load)
+ 
+- [x] Parallel
+  - [Директория](./../demo-next/app/routes/parallel)
+  - [Демо](http://localhost:3000/routes/parallel)
    
 ### Render Components
    1. [ ] Create SSR (Server Side Component)
