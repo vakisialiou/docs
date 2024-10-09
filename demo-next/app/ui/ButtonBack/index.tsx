@@ -1,6 +1,7 @@
 'use client'
 import React from 'react'
 import { useRouter } from 'next/navigation'
+import Button from '@app/ui/Button'
 
 export default function ButtonBack(
   { children }:
@@ -9,11 +10,10 @@ export default function ButtonBack(
   const router = useRouter()
 
   return (
-    <div
+    <Button
       onClick={() => router.back()}
-      className="border bg-blue-700 hover:bg-blue-800 active:bg-blue-900 px-2 cursor-pointer"
     >
       {children}
-    </div>
+    </Button>
   )
 }
