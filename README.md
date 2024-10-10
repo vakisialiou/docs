@@ -1,3 +1,7 @@
+### Theory
+ - [OOP](/theory/oop.md)
+ - [SOLID](/theory/solid.md)
+
 ### Node.js
 
 1. [x] [Процесс и поток](node/process.md)
