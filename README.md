@@ -1,6 +1,7 @@
 ### Theory
- - [OOP](/theory/oop.md)
- - [SOLID](/theory/solid.md)
+ - [OOP](./theory/oop.md)
+ - [SOLID](./theory/solid.md)
+ - [Pattern](./theory/pattern.md)
 
 ### Node.js
 
