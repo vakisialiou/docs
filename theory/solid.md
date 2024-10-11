@@ -134,7 +134,10 @@ class AreaCalculator {
 так как он просто вызывает метод area() и делает необходимое вычисление.
 
 #### L - Liskov Substitution Principle (LSP): Принцип подстановки Лисков
+
 Это типичное наследование классов с переопределением методов и с сохранением ожидаемого поведения базового класса.
+В отличии, от "Полиморфизм" этот принцип должен сохранять ожидаемое поведение, а не просто переопределять методы 
+как угодно.
 
 **Плохой пример:**
 ```javascript
@@ -234,4 +237,144 @@ makeWalkingBirdWalk(ostrich)
 
 #### I - Interface Segregation Principle (ISP): Принцип разделения интерфейса
 
+Классы, которые имплементируют интерфейсы, не должны реализовывать методы, которые им не нужны. Вместо одного 
+большого интерфейса лучше разбить его на несколько маленьких, каждый из которых описывает конкретное поведение. 
+Другими словами, интерфейсы должны быть специфичными для каждого конкретного класса, который их имплементируют.
+
+**Плохой пример:**
+```javascript
+class WorkerInterface {
+  work() {
+    throw new Error('Метод должен быть реализован')
+  }
+  
+  eat() {
+    throw new Error('Метод должен быть реализован')
+  }
+}
+
+class HumanWorker extends WorkerInterface {
+  work() {
+    console.log('Рабочий работает')
+  }
+
+  eat() {
+    console.log('Рабочий ест')
+  }
+}
+
+class RobotWorker extends WorkerInterface {
+  work() {
+    console.log('Робот работает')
+  }
+
+  eat() {
+    throw new Error('Роботы не едят, но этот метод вынужден быть реализован')
+  }
+}
+```
+
+Класс RobotWorker вынужден реализовывать метод eat(), хотя этот метод ему не нужен. Это нарушает принцип ISP, 
+так как интерфейс слишком широк — он требует реализации ненужного функционала.
+
+**Хороший пример:**
+```javascript
+class WorkableInterface {
+  work() {
+    throw new Error('Метод должен быть реализован')
+  }
+}
+
+class EatableInterface {
+  eat() {
+    throw new Error('Метод должен быть реализован')
+  }
+}
+
+class HumanWorker extends WorkableInterface {
+  work() {
+    console.log('Человек работает')
+  }
+
+  eat() {
+    console.log('Человек ест')
+  }
+}
+
+class RobotWorker extends WorkableInterface {
+  work() {
+    console.log('Робот работает')
+  }
+}
+```
+
 #### D - Dependency Inversion Principle (DIP): Принцип инверсии зависимостей
+
+Для понимания этого принципа нужно понимать разницу между "Низкоуровневым классом" и "Высокоуровневым классом".
+Оба типа классов должны зависеть от абстракций (интерфейсов или абстрактных классов).
+
+**Низкоуровневые классы** — Эти классы представляют собой конкретные реализации, которые выполняют более простые, 
+но важные задачи. Другими словами это маленькие кирпичики, где каждый кирпичик это конкретная задача.
+
+```javascript
+// Интерфейс класс
+class Payment {
+  pay(amount) {
+    throw new Error(`Метод 'pay' должен быть реализован в подклассе`)
+  }
+}
+
+class PayPalPayment {
+  pay(amount) {
+    console.log(`Оплата через PayPal на сумму: ${amount}`)
+  }
+}
+
+class StripePayment {
+  pay(amount) {
+    console.log(`Оплата через Stripe на сумму: ${amount}`)
+  }
+}
+```
+
+**Высокоуровневые классы** — Эти классы содержат бизнес-логику приложения и управляют сложными процессами. 
+Они определяют, как должна работать программа. Другими словами это большая задача которая использует кирпичики 
+"Низкоуровневые классы" для построения логики задачи.
+
+```javascript
+// Абстрактный класс
+class Processor {
+  constructor(payment) {
+    if (!(payment instanceof Payment)) {
+      throw new Error(`'payment' должен быть экземпляром 'Payment'`);
+    }
+    this.payment = payment
+  }
+  
+  processPayment(order) {
+    throw new Error(`Метод 'processPayment' должен быть реализован в подклассе`)
+  }
+}
+
+class OrderProcessor extends Processor {
+  constructor(payment) {
+    this.payment = payment
+  }
+
+  processPayment(order) {
+    this.payment.pay(order.amount)
+    console.log('Order placed:', order)
+  }
+}
+```
+
+**Пример принципа**
+```javascript
+const paypalPayment = new PayPalPayment()
+const orderService = new OrderService(paypalPayment)
+orderService.processPayment({ amount: 100 })
+
+const stripePayment = new StripePayment()
+const orderService = new OrderService(stripePayment)
+orderService.processPayment({ amount: 100 })
+```
