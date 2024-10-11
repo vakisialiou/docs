@@ -5,6 +5,9 @@
 
 #### S - Single Responsibility Principle (SRP): Принцип единственной ответственности
 
+Каждый класс должен иметь только одну ответственность и, следовательно, одну причину для изменения. Это означает, 
+что класс должен выполнять только одну задачу и не должен быть перегружен несколькими различными функциональностями.
+
 **Плохой пример:**
 
 ```javascript
@@ -23,10 +26,11 @@ class User {
   }
 }
 ```
+
 В этом примере класс ``User`` имеет две ответственности, управление данными пользователя
 и отправка ``email``. Если потребуется изменить способ отправки ``email``, это повлияет на класс ``User``.
 
-**Хороший пример:** 
+**Хороший пример:**
 
 ```javascript
 class User {
@@ -63,6 +67,7 @@ class EmailService {
 расширение (например, добавление новых классов).
 
 **Плохой пример:**
+
 ```javascript
 class AreaCalculator {
   smoeCalc(shape) {
@@ -92,6 +97,7 @@ class Rectangle {
 Если мы добавим новую фигуру, например, Triangle, нам придется модифицировать AreaCalculator.
 
 **Хороший пример:**
+
 ```javascript
 class Shape {
   area() {
@@ -140,6 +146,7 @@ class AreaCalculator {
 как угодно.
 
 **Плохой пример:**
+
 ```javascript
 class Bird {
   fly() {
@@ -174,6 +181,7 @@ ostrich.fly() // Ошибка!
 всё поведение родительского класса, в частности, метод fly().
 
 **Хороший пример:**
+
 ```javascript
 class Bird {
   // Общий класс для всех птиц.
@@ -242,6 +250,7 @@ makeWalkingBirdWalk(ostrich)
 Другими словами, интерфейсы должны быть специфичными для каждого конкретного класса, который их имплементируют.
 
 **Плохой пример:**
+
 ```javascript
 class WorkerInterface {
   work() {
@@ -278,6 +287,7 @@ class RobotWorker extends WorkerInterface {
 так как интерфейс слишком широк — он требует реализации ненужного функционала.
 
 **Хороший пример:**
+
 ```javascript
 class WorkableInterface {
   work() {
@@ -369,6 +379,7 @@ class OrderProcessor extends Processor {
 ```
 
 **Пример принципа**
+
 ```javascript
 const paypalPayment = new PayPalPayment()
 const orderService = new OrderService(paypalPayment)
