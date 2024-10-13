@@ -132,6 +132,40 @@ new RoadLogistics().planDelivery()
 new SeaLogistics().planDelivery()
 ```
 
+OR
+
+```javascript
+class LogisticsFactory extends Logistics {
+  createTransport(type) {
+    switch (type) {
+      case 'truck':
+        return new Truck()
+      case 'ship':
+        return new Ship()
+      default:
+        throw new Error('Unknown transport type.')
+    }
+  }
+
+  createPath(type) {
+    switch (type) {
+      case 'truck':
+        return new TruckPath()
+      case 'ship':
+        return new ShipPath()
+      default:
+        throw new Error('Unknown path type.')
+    }
+  }
+}
+
+new LogisticsFactory().planDelivery('truck')
+new LogisticsFactory().planDelivery('ship')
+```
+
+В данном случае, последний пример избыточный. Так же, он нарушает принцип SOLID - Open/Closed Principle.
+В некоторых случаях это может быть простым решением.
+
 #### Strategy:
 - Определяет семейство алгоритмов, инкапсулирует их и делает их взаимозаменяемыми. Позволяет изменять алгоритм 
 независимо от клиентов, которые его используют.
