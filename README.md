@@ -55,3 +55,4 @@
 ### CI/CD
 
 1. [ ] [Вопросы](ci/questions.md)
+2. [ ] [Основы CI/CD](ci/fundamentals.md)
