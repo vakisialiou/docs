@@ -1,4 +1,4 @@
-### Theory
+### OOP
  - [OOP](./theory/oop.md)
  - [SOLID](./theory/solid.md)
  - [Pattern](./theory/pattern.md)
