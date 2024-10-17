@@ -1,7 +1,7 @@
 ### OOP
- - [OOP](./theory/oop.md)
- - [SOLID](./theory/solid.md)
- - [Pattern](./theory/pattern.md)
+ - [OOP](./oop/oop.md)
+ - [SOLID](./oop/solid.md)
+ - [Pattern](./oop/pattern.md)
 
 ### Node.js
 
@@ -47,6 +47,9 @@
 ### Next.js
 
 1. [ ] [Вопросы](next/questions.md)
+2. [ ] [Основы](next/fundamentals.md)
+3. [ ] [Playground](next/playground.md)
+4. [ ] [Playground package.json](demo-next/package.json)
 
 ### Docker
 
@@ -54,5 +57,5 @@
 
 ### CI/CD
 
-1. [ ] [Вопросы](ci/questions.md)
-2. [ ] [Основы CI/CD](ci/fundamentals.md)
+1. [ ] [Вопросы](ci-cd/questions.md)
+2. [ ] [Основы CI/CD](ci-cd/fundamentals.md)

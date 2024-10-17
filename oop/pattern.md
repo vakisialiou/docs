@@ -1,3 +1,5 @@
+[Назад](../README.md)
+
 ### Распространенные паттерны ООП
 
 #### Singleton:
@@ -385,3 +387,6 @@ class PizzaOrderFacade {
 // Использование
 new PizzaOrderFacade().order()
 ```
+
+- [OOP](./oop.md)
+- [Pattern](./pattern.md)

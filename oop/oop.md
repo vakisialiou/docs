@@ -1,3 +1,4 @@
+[Назад](../README.md)
 
 **Имплементация интерфейсов** — это процесс, когда класс или объект реализует методы, определённые в интерфейсе. 
 Интерфейс сам по себе задаёт только контракт, то есть описывает, какие методы и свойства должны быть у класса, 
@@ -185,3 +186,6 @@ const circle = new Circle(5)
 const rectangle = new Rectangle(4, 6)
 console.log([circle.describe(), rectangle.describe()])
 ```
+
+- [SOLID](./solid.md)
+- [Pattern](./pattern.md)
