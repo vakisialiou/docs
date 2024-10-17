@@ -46,10 +46,12 @@
 
 ### Next.js
 
-1. [ ] [Вопросы](next/questions.md)
-2. [ ] [Основы](next/fundamentals.md)
-3. [ ] [Playground](next/playground.md)
-4. [ ] [Playground package.json](demo-next/package.json)
+1. [x] [Вопросы](next/questions.md)
+2. [x] [Основы](next/fundamentals.md)
+3. [x] [Маршрутизация](next/routing.md)
+4. [ ] [Оптимизация и производительность](next/performance.md)
+- [ ] [Playground](next/playground.md)
+- [ ] [Playground package.json](demo-next/package.json)
 
 ### Docker
 
