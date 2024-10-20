@@ -82,7 +82,7 @@ https://www.youtube.com/watch?v=eIho2S0ZahI
 - goodness - доброта
 - perhaps(пэхапс) - возможно
 - tempered(тэмпэд) - умеренный, закаленный
-- simultaneously(симэдтэйниесли) - одновременно
+- simultaneously(симэлтэйниесли) - одновременно
 - rummage - рыться
 - vote - голосование
 - breathing - дыхание
