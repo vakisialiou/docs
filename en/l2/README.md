@@ -17,13 +17,14 @@ Would those brothers bathe with these brothers?
 
 1. My favorite main dish is probably a good **curry** with a **chicken biryani** and some **naan bread**.
 It's the one thing I really **miss** now I live abroad.
-   - curry - (a dish with meat and vegetable or just vegetable, in a sauce with hot spices. It's usually eaten with a rice. It's very popular in India)
+   - curry - (a dish with meat and vegetable or just vegetable, in a sauce with hot spices. 
+   It's usually eaten with a rice. It's very popular in India)
    - meat - мясо
    - chicken biryani - (an Indian dish made with chicken thad's cooked with lots of spices)
    - naan bread - (a type of bread that's round and flat. It's eaten with Indian food)
    - miss - If you miss something, you feel sad because you don't have that thing anymore.
    - sad - грустно
-2. Erm. my favourite dish? Probably **roast** chicken because that's what I used to eat on Sundays as a **kid**.
+2. My favourite dish? Probably **roast** chicken because that's what I used to eat on Sundays as a **kid**.
    - roast - chicken (for example) has been cooked in oil in an over (an electrical appliance with a door at the front)
    - appliance - прибор
    - kid - a child
