@@ -9,7 +9,7 @@
    - three thieves - три вора
    - go through - пройти, (через)
 
-2. These [бразэрс][базэ] brothers bathe with those brothers, 
+2. These [бразэрс][бэйз] brothers bathe with those brothers, 
 Those brothers bathe with these brothers. 
 If these brothers didn’t bathe with those brothers,
 Would those brothers bathe with these brothers?

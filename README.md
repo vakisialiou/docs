@@ -48,9 +48,11 @@
 
 1. [x] [Вопросы](next/questions.md)
 2. [x] [Основы](next/fundamentals.md)
-3. [x] [Маршрутизация](next/routing.md)
-4. [x] [Оптимизация и производительность](next/performance.md)
-5. [ ] [Продвинутые возможности](next/advanced.md)
+3. [x] [Hooks](next/hooks.md)
+4. [x] [Маршрутизация](next/routing.md)
+5. [x] [Оптимизация и производительность](next/performance.md)
+6. [x] [Продвинутые возможности](next/advanced.md)
+7. [x] [Безопасность и аутентификация](next/security.md)
 - [ ] [Playground](next/playground.md)
 - [ ] [Playground package.json](demo-next/package.json)
 
