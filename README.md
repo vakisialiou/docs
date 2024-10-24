@@ -1,8 +1,8 @@
 ### OOP
--  [Основы](./oop/basic.md)
- - [OOP](./oop/oop.md)
- - [SOLID](./oop/solid.md)
- - [Pattern](./oop/pattern.md)
+-  [x] [Основы](./oop/basic.md)
+ - [x] [OOP](./oop/oop.md)
+ - [x] [SOLID](./oop/solid.md)
+ - [x] [Pattern](./oop/pattern.md)
 
 ### Node.js
 
@@ -59,9 +59,9 @@
 
 ### Docker
 
-1. [ ] [Вопросы](docker/questions.md)
+1. [x] [Вопросы](docker/questions.md)
 
 ### CI/CD
 
-1. [ ] [Вопросы](ci-cd/questions.md)
-2. [ ] [Основы CI/CD](ci-cd/fundamentals.md)
+1. [x] [Вопросы](ci-cd/questions.md)
+2. [X] [Основы CI/CD](ci-cd/fundamentals.md)
