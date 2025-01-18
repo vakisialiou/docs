@@ -65,3 +65,11 @@
 
 1. [x] [Вопросы](ci-cd/questions.md)
 2. [X] [Основы CI/CD](ci-cd/fundamentals.md)
+
+### DB
+
+1. [Основы MySQL, PostgreSQL, и ClickHouse.](./db/basic.md)
+2. [Что такое ACID-транзакции?](./db/acid.md)
+3. [Типы баз данных в контексте MySQL, PostgesSQL, ClickHouse, MongoDB, Redis?](./db/types.md)
+4. [Механизмы хранения данных.](./db/engines.md)
+5. [Построение индексов (MySQL, PostgreSQL, и ClickHouse, MongoDB) чем отличаются]()
